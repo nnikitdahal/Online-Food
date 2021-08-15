@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	        
+.div2{
+	margin-top: 250px;
+	padding-left: 100px;
+	color: white;
+	height: 40%;
+	width: 30%;
+}
+.div2 h2{ 
+    font-size: 25px;
+    padding: 20px;
+	color: white;
+	font-weight: bold;
+}
+.div2 p{
+	font-size: 20px;
+
+}
+.forms{
+	min-height: 140vh;
+	width: 45%;
+	background: white;
+	color: #707070;
+	top: 40%;
+    transform: translate(100%,-60%);
+	border: 2px solid whitesmoke;
+	border-radius: 3px;
+	margin-bottom: 70px;
+
+}
+
+.forms h4{
+	overflow: hidden;
+	font-size: 26px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding: 20px;
+	color: black;
+	padding-bottom:0px;
+
+} .forms h5{
+	font-size: 25px;
+	padding-top: -10px;
+	text-align: center;
+	padding: 20px;
+	color: black;
+}
+
+.forms p{
+	padding-left: 20px;
+	font-size: 18px;
+}
+.forms li{
+	padding-left: 30px;
+
+}
+
+.myform input{
+	display: inline-block;
+	width: 90%;
+	margin-left: 30px;
+	margin: 20px;
+	height: 30px;
+	margin-bottom: 5px;
+	border-radius:5px;
+	padding-left: 15px;
+	border-color: #333;
+
+}
+.myform select{
+	width: 92%;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin: 20px;
+	height: 30px;
+	border-radius:5px;
+	padding-left: 15px;
+	margin-right: 0px;
+	border-color: #333;
+}
+.myform a{
+	text-decoration: none;
+	color: white;
+	width: 90%;
+}
+.btnone{
+	width: 80%;
+	padding: 20px;
+	text-decoration: none;
+	margin: 15px 20px;
+	margin-top:40px;
+	color: #fff;
+	border: 1px solid #eb34ab;
+	font-size: 19px;
+	background:#eb34ab;
+	cursor: pointer;
+	text-align: center;
+}
+.forms i {
+            position: absolute;
+        }
+          
+        .forms i {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+          
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
+
+h2{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+	margin: 20px;
+}
+.image {
+            overflow: hidden;
+            background-color: white;
+            top: 0;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 100px;
+            margin-right: 80px;
+        }
+   .image1 figcaption{
+   	     font-size: 17px;
+   	     text-align: center;
+
+   }
+.image2 figcaption{
+   	     font-size: 17px;
+   	     text-align: center;
+
+   }
+   .image3 figcaption{
+   	     font-size: 17px;
+   	     text-align: center;
+
+   }
+   .image4 figcaption{
+   	     font-size: 17px;
+   	     text-align: center;
+
+   }
+  .div3{
+  	width: 100%;
+  	background-color: #eb34ab;
+  	height: 40vh;
+  	margin:30px 0px;
+  	margin-bottom:-40%;
+  }
+
+  .pictures{
+  	height: 100%;
+
+}
+
+.ulul{
+	transform: translate(-2%,-145%);
+	text-align: center;
+	font-size: 30px;
+}
+.ulul p{
+	font-size: 30px;
+	color: whitesmoke;
+	margin: 20px;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+ .ulul li{
+	text-decoration: none;
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+h1{
+	margin-top: -10%;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	top:50px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+
+.image3 {
+            overflow: hidden;
+            background-color: white;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            
+            padding: 10px;
+            margin: 10px;
+            margin-left: 100px;
+            margin-right: 80px;
+            margin-bottom: 70px;
+        }
+
+     .image5 figcaption{
+   	     font-size: 15px;
+   	     text-align: center;
+   }
+
+ .btntwo{
+ 	
+	width: 60%;
+
+	padding: 160px;
+	text-decoration: none;
+	margin: 10px 20px;
+	color: #fff;
+	border: 1px solid #eb34ab;
+	padding: 45x 34px;
+	font-size: 19px;
+	background:#eb34ab;
+	cursor: pointer;
+	text-align: center;
+}
+.nikis{
+	        overflow: hidden;
+            background-color: white;
+            top: 0;
+            text-align: center;
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 100px;
+            margin-right: 80px;
+
+}
+.footer{
+
+  	width: 100%;
+  	background-color:black;
+  	height: 40vh;
+  	margin:30px 0px;
+  	margin-bottom:20%;
+  	display: flex;
+    justify-content: space-between;
+
+}
+.terms a{
+	text-decoration: none;
+	font-size: 15px;
+	margin: 10px;
+	margin-left: 130px;
+	padding: 10px;
+	color: white;
+
+}
+
+
+terms li{
+}
+.social{
+	margin-top: 80px;
+	display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+

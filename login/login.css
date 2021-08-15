@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.active{
+	color: 	#000000;
+	font-weight: bold;
+}
+
+
+.bdy{
+	min-height: 90vh;
+	width: 100%;
+	padding-bottom:0px;
+	margin-bottom: 30px;
+	background: whitesmoke;
+
+}
+.row{
+	min-height: 50vh;
+	width: 30%;
+	background: white;
+	color: #707070;
+	top: 30%;
+	right: 60%;
+    transform: translate(99%,60%);
+	border: 2px solid whitesmoke;
+	border-radius: 3px;
+	margin-bottom: 0px;
+}
+
+h2{
+	margin: 10px 15px;
+	color: black;
+}
+p{
+	margin: 10px 15px;
+}
+
+.facebook{
+	width: 85%;
+	height: 40px;
+	background: #0394fc;
+	margin: 15px 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+.facebook a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	 display: flex;
+     padding-right: 20px;
+     padding-top: 10px;
+     text-transform: uppercase;
+}
+.facebook:hover{
+    background-color:	#C0C0C0;
+}
+.email{
+	width: 85%;
+	height: 40px;
+	background: #ffffff;
+	margin: 15px 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border:1px solid #e8761e ;
+}
+.my{
+	text-align: center;
+}
+
+.email a{
+	color: #e81ec3;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+     padding: 20px;
+     display:inline-block;
+     text-transform: uppercase;
+     padding-left: 50px;
+     padding-top: 15px;
+}
+.foot{
+	margin: 10px;
+}
+.foot a{
+	text-decoration: none;
+	color:#e81ec3 ;
+}

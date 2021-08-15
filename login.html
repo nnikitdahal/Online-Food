@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="login/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-right: 5px solid whitesmoke;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 20px 6px;
+            padding-bottom: 0px;
+            text-decoration: none;
+            font-size: 17px;
+            padding-right:0px;
+            padding-bottom: 0px;
+            color: #808080;
+        }
+
+        
+        .main {
+            padding: 16px;
+            margin-top: 70px;
+            width: 100%;
+            height: 100vh;
+            background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/banner.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* Used in this example to enable scrolling */
+        }
+    </style>
+
+
+	
+</head>
+<body>
+
+	<div class="navbar">
+        <div class="logo">
+            <a  href="index.html"><img src="images/panda.png" style="height: 60px; width: 130px; outline: none;"></a>
+        </div>
+        <div class="nav-links">
+            <a  class="active" href="#news"><span style="border-left:1px solid whitesmoke; padding-left:20px;"></span>EN<span>|</span></a>
+            <a href="#news">ZH</a>
+            <a href="#contact"><span>|</span>MS <span style="padding-left: 10px;"></span></a>
+            <i class="fa fa-cart-plus" style="font-size:17px; color:#eb34ab; cursor: pointer;border-left:2px solid whitesmoke; padding-left: 20px; padding-right: 15px; text-align: center; margin-top: 13.5px; margin-right: 10px; margin-left: 10px; margin-bottom:0px; margin-bottom: 0px; padding-bottom:0px;"></i>
+
+        </div>
+
+    </div>
+
+
+
+
+     <div class="bdy">
+    <div class="row">
+        <h2>Welcome!</h2>
+    <p>Sign up or log in to continue</p>
+    <div class="facebook">
+    	<a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=1441869016037016&kid_directed_site=0&app_id=1441869016037016&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv9.0%2Fdialog%2Foauth%3Fapp_id%3D1441869016037016%26cbt%3D1627782067607%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df8ef83812900b8%2526domain%253Dwww.foodpanda.my%2526origin%253Dhttps%25253A%25252F%25252Fwww.foodpanda.my%25252Ff15be5c604b2744%2526relation%253Dopener%26client_id%3D1441869016037016%26display%3Dpopup%26domain%3Dwww.foodpanda.my%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fwww.foodpanda.my%252Flogin%252Fnew%26locale%3Den_US%26logger_id%3Df14d9501d5fd2ac%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df3d4b5677674838%2526domain%253Dwww.foodpanda.my%2526origin%253Dhttps%25253A%25252F%25252Fwww.foodpanda.my%25252Ff15be5c604b2744%2526relation%253Dopener%2526frame%253Df857157bf20464%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dfalse%26scope%3Dpublic_profile%252Cemail%26sdk%3Djoey%26version%3Dv9.0%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3d4b5677674838%26domain%3Dwww.foodpanda.my%26origin%3Dhttps%253A%252F%252Fwww.foodpanda.my%252Ff15be5c604b2744%26relation%3Dopener%26frame%3Df857157bf20464%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_US&pl_dbl=0"> <i class="fa fa-facebook left"style="font-size:20px; color:#ffffff; margin:5px; cursor: pointer; padding-bottom:20px; padding-top:0px; padding-right:35px"></i>Continue with facebook</a>
+    </div>
+    <p class="my">or</p>
+
+    <div class="email">
+    	<a href="https://www.foodpanda.my/login/new?step=email">Continue with email</a>
+    </div>
+
+     <p class="foot">By signing up, you agree to our <a target="_balnk" href="https://www.foodpanda.my/contents/terms-and-conditions.htm">Terms and Conditions</a> and <a target="_blank" href="https://www.foodpanda.my/contents/privacy.htm">Privacy and Policy</a></p>
+    </div>
+</div> 
+</body>
+</html>
